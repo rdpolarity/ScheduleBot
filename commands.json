@@ -1,0 +1,147 @@
+{
+  "scrim-info": {
+    "permission": [
+      "founder",
+      "manager",
+      "community"
+    ],
+    "arguments": [
+      "team",
+      "date"
+    ],
+    "description": "Displays all match information from team and date"
+  },
+  "scrim-add": {
+    "permission": [
+      "founder",
+      "manager"
+    ],
+    "arguments": [
+      "team",
+      "opponent",
+      "type",
+      "date",
+      "start",
+      "end"
+    ],
+    "description": "Adds a scrim to specified team database"
+  },
+  "scrim-remove": {
+    "permission": [
+      "founder",
+      "manager"
+    ],
+    "arguments": [
+      "team",
+      "scrimID"
+    ],
+    "description": "Removes a scrim from a team based on database ID"
+  },
+  "team-add": {
+    "permission": [
+      "founder"
+    ],
+    "arguments": [
+      "team",
+      "scheduleID"
+    ],
+    "description": "Creates a new team database and set's schedule chat (ChannelID)"
+  },
+  "team-list": {
+    "permission": [
+      "founder",
+      "manager",
+      "community"
+    ],
+    "arguments": [],
+    "description": "Displays a list of all teams and schedule ID's"
+  },
+  "team-remove": {
+    "permission": [
+      "founder"
+    ],
+    "arguments": [
+      "team"
+    ],
+    "description": "Removes a specified team"
+  },
+  "team-edit": {
+    "permission": [
+      "founder"
+    ],
+    "arguments": [
+      "team",
+      "newname",
+      "newscheduleID"
+    ],
+    "description": "Changes name of team and or Schedule Channel ID"
+  },
+  "graphic": {
+    "permission": [
+      "founder"
+    ],
+    "arguments": [
+      "template",
+      "username"
+    ],
+    "description": "Renders out a twitter banner for the player"
+  },
+  "help": {
+    "permission": [
+      "founder",
+      "manager",
+      "community"
+    ],
+    "arguments": [],
+    "description": "Displays list of commands according to permissions"
+  },
+  "info": {
+    "permission": [
+      "founder",
+      "manager",
+      "community"
+    ],
+    "arguments": [],
+    "description": "Displays bot's version information"
+  },
+  "schedule": {
+    "permission": [
+      "founder",
+      "manager",
+      "community"
+    ],
+    "arguments": [
+      "team"
+    ],
+    "description": "Displays the weeks schedule for a team"
+  },
+  "text": {
+    "permission": [
+      "founder"
+    ],
+    "arguments": [
+      "text"
+    ],
+    "description": "Create text formats"
+  },
+  "perm-add": {
+    "permission": [
+      "founder"
+    ],
+    "arguments": [
+      "command",
+      "role"
+    ],
+    "description": "Adds a permission to a specific command"
+  },
+  "perm-remove": {
+    "permission": [
+      "founder"
+    ],
+    "arguments": [
+      "command",
+      "role"
+    ],
+    "description": "Removes a permission to a specific command"
+  }
+}
